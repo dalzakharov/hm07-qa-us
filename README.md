@@ -47,8 +47,6 @@ On Windows PowerShell, if script execution is restricted, use:
 
 ## Known Issues
 
-## Known Issues
-
 During testing, unexpected behavior was observed in the `DELETE /api/v1/kits/:id` endpoint.
 
 The API consistently returns HTTP status `200 OK` and the response body `{"ok": true}`, even when:
